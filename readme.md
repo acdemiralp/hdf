@@ -8,7 +8,7 @@ Header-only C++20 wrapper for HDF5.
 ### Design notes.
 - Deprecated functions are omitted (the library is bloated enough with its ~740 non-deprecated functions).
 
-### Coverage (list based on https://portal.hdfgroup.org/display/HDF5/Libraries+and+Tools+Reference)
+### Coverage ([Reference](https://portal.hdfgroup.org/display/HDF5/Libraries+and+Tools+Reference))
 - [ ] Core
   - [ ] Attributes
     - [ ] H5A_CLOSE  
