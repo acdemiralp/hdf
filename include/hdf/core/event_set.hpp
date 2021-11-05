@@ -27,9 +27,6 @@ public:
   event_set           (      event_set&& temp) noexcept
   : managed_(temp.managed_), native_(temp.native_)
   {
-    if (managed_)
-      HDF_CHECK_ERROR_CODE(H5ESclose, (native_))
-
     temp.managed_ = false;
     temp.native_  = 0;
   }
@@ -41,15 +38,17 @@ public:
   event_set& operator=(const event_set&  that) = delete;
   event_set& operator=(      event_set&& temp) noexcept
   {
-    if (managed_)
-      HDF_CHECK_ERROR_CODE(H5ESclose, (native_))
+    if (this != &temp)
+    {
+      if (managed_)
+        HDF_CHECK_ERROR_CODE(H5ESclose, (native_))
 
-    managed_      = temp.managed_;
-    native_       = temp.native_ ;
+      managed_      = temp.managed_;
+      native_       = temp.native_ ;
 
-    temp.managed_ = false;
-    temp.native_  = 0;
-
+      temp.managed_ = false;
+      temp.native_  = 0;
+    }
     return *this;
   }
 

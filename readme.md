@@ -1,4 +1,4 @@
-### hdf
+### HDF
 Header-only C++20 wrapper for HDF5.
 
 ### Usage Notes
@@ -237,16 +237,16 @@ Header-only C++20 wrapper for HDF5.
     - [x] H5Z_REGISTER
     - [x] H5Z_UNREGISTER
   - [ ] Groups
-    - [ ] H5G_CLOSE 
-    - [ ] H5G_CREATE2
-    - [ ] H5G_CREATE_ANON
-    - [ ] H5G_FLUSH   
-    - [ ] H5G_GET_CREATE_PLIST 
-    - [ ] H5G_GET_INFO 
-    - [ ] H5G_GET_INFO_BY_IDX 
-    - [ ] H5G_GET_INFO_BY_NAME 
-    - [ ] H5G_OPEN2
-    - [ ] H5G_REFRESH 
+    - [x] H5G_CLOSE 
+    - [*] H5G_CREATE2
+    - [*] H5G_CREATE_ANON
+    - [x] H5G_FLUSH   
+    - [*] H5G_GET_CREATE_PLIST 
+    - [x] H5G_GET_INFO 
+    - [*] H5G_GET_INFO_BY_IDX 
+    - [*] H5G_GET_INFO_BY_NAME 
+    - [*] H5G_OPEN2
+    - [x] H5G_REFRESH 
   - [ ] Identifiers
     - [ ] H5I_CLEAR_TYPE
     - [ ] H5I_DEC_REF
@@ -344,24 +344,24 @@ Header-only C++20 wrapper for HDF5.
     - [ ] H5O_REFRESH
     - [ ] H5O_VISIT2
     - [ ] H5O_VISIT_BY_NAME2
-  - [ ] Plugins
-    - [ ] H5PL_APPEND
-    - [ ] H5PL_GET
-    - [ ] H5PL_GET_LOADING_STATE
-    - [ ] H5PL_INSERT
-    - [ ] H5PL_PREPEND
-    - [ ] H5PL_REMOVE
-    - [ ] H5PL_REPLACE
-    - [ ] H5PL_SET_LOADING_STATE
-    - [ ] H5PL_SIZE
+  - [x] Plugins
+    - [x] H5PL_APPEND
+    - [x] H5PL_GET
+    - [x] H5PL_GET_LOADING_STATE
+    - [x] H5PL_INSERT
+    - [x] H5PL_PREPEND
+    - [x] H5PL_REMOVE
+    - [x] H5PL_REPLACE
+    - [x] H5PL_SET_LOADING_STATE
+    - [x] H5PL_SIZE
   - [ ] Property Lists
-    - [ ] General
-      - [ ] H5P_CLOSE
-      - [ ] H5P_COPY
-      - [ ] H5P_CREATE
-      - [ ] H5P_DECODE
-      - [ ] H5P_ENCODE
-      - [ ] H5P_GET_CLASS
+    - [x] General
+      - [x] H5P_CLOSE
+      - [x] H5P_COPY
+      - [x] H5P_CREATE
+      - [x] H5P_DECODE
+      - [x] H5P_ENCODE
+      - [x] H5P_GET_CLASS
     - [ ] File Creation
       - [ ] H5P_GET_FILE_SPACE_PAGE_SIZE
       - [ ] H5P_GET_FILE_SPACE_STRATEGY
