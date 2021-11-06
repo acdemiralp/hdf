@@ -5,8 +5,6 @@
 #include <hdf/core/exception.hpp>
 #include <hdf/core/hdf.hpp>
 
-#include "property_list.hpp"
-
 namespace hdf
 {
 class file_access_properties;
@@ -34,7 +32,7 @@ public:
   {
     
   }
-  properties           (      properties&& temp)
+  properties           (      properties&& temp) noexcept
   : managed_(temp.managed_), native_(temp.native_)
   {
     temp.managed_ = false;
@@ -105,28 +103,4 @@ protected:
   bool  managed_ = false;
   hid_t native_  = 0;
 };
-
-class file_creation_property_list : public properties
-{
-public:
-  file_creation_property_list           ()
-  : properties(H5P_FILE_CREATE)
-  {
-
-  }
-  explicit file_creation_property_list  (const hid_t native, const bool managed = false)
-  : properties(native, managed)
-  {
-    
-  }
-  file_creation_property_list           (const file_creation_property_list&  that) = default;
-  file_creation_property_list           (      file_creation_property_list&& temp) = default;
-  virtual ~file_creation_property_list ()                                          = default;
-  file_creation_property_list& operator=(const file_creation_property_list&  that) = default;
-  file_creation_property_list& operator=(      file_creation_property_list&& temp) = default;
-
-protected:
-
-};
-
 }

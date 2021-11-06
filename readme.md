@@ -308,19 +308,20 @@ Header-only C++20 wrapper for HDF5.
     - [ ] H5L_VISIT
     - [ ] H5L_VISIT_BY_NAME
   - [ ] Map
-    - [ ] H5M_CLOSE    
-    - [ ] H5M_CREATE
+    - [x] H5M_CLOSE    
+    - [x] H5M_CREATE
+    - [x] H5M_CREATE_ANON
     - [ ] H5M_DELETE
     - [ ] H5M_GET
-    - [ ] H5M_GET_ACCESS_PLIST
+    - [x] H5M_GET_ACCESS_PLIST
     - [ ] H5M_GET_COUNT
-    - [ ] H5M_GET_CREATE_PLIST    
-    - [ ] H5M_GET_KEY_TYPE
-    - [ ] H5M_GET_VAL_TYPE    
+    - [x] H5M_GET_CREATE_PLIST    
+    - [x] H5M_GET_KEY_TYPE
+    - [x] H5M_GET_VAL_TYPE    
     - [ ] H5M_EXISTS
     - [ ] H5M_ITERATE
     - [ ] H5M_ITERATE_BY_NAME
-    - [ ] H5M_OPEN
+    - [x] H5M_OPEN
     - [ ] H5M_PUT
   - [ ] Objects
     - [ ] H5O_ARE_MDC_FLUSHES_DISABLED
@@ -611,18 +612,18 @@ Header-only C++20 wrapper for HDF5.
     - [ ] H5R_OPEN_ATTR  
     - [ ] H5R_OPEN_OBJECT
     - [ ] H5R_OPEN_REGION
-  - [ ] Virtual Object Layer
-    - [ ] H5VL_CLOSE
-    - [ ] H5VL_GET_CONNECTOR_ID
-    - [ ] H5VL_GET_CONNECTOR_ID_BY_NAME
-    - [ ] H5VL_GET_CONNECTOR_ID_BY_VALUE
-    - [ ] H5VL_GET_CONNECTOR_NAME
-    - [ ] H5VL_IS_CONNECTOR_REGISTERED_BY_NAME
-    - [ ] H5VL_IS_CONNECTOR_REGISTERED_BY_VALUE
-    - [ ] H5VL_REGISTER_CONNECTOR
-    - [ ] H5VL_REGISTER_CONNECTOR_BY_NAME
-    - [ ] H5VL_REGISTER_CONNECTOR_BY_VALUE
-    - [ ] H5VL_UNREGISTER_CONNECTOR
+  - [x] Virtual Object Layer
+    - [x] H5VL_CLOSE
+    - [x] H5VL_GET_CONNECTOR_ID
+    - [x] H5VL_GET_CONNECTOR_ID_BY_NAME
+    - [x] H5VL_GET_CONNECTOR_ID_BY_VALUE
+    - [x] H5VL_GET_CONNECTOR_NAME
+    - [x] H5VL_IS_CONNECTOR_REGISTERED_BY_NAME
+    - [x] H5VL_IS_CONNECTOR_REGISTERED_BY_VALUE
+    - [x] H5VL_REGISTER_CONNECTOR
+    - [x] H5VL_REGISTER_CONNECTOR_BY_NAME
+    - [x] H5VL_REGISTER_CONNECTOR_BY_VALUE
+    - [x] H5VL_UNREGISTER_CONNECTOR
 - [ ] High Level
   - [ ] Lite
     - [ ] H5LT_PATH_VALID
