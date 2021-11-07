@@ -6,7 +6,7 @@ namespace hdf
 {
 // Allows a function pointer to capture, given its final argument is a void* for user data.
 template <typename return_type, typename... argument_types>
-struct augmented_function_pointer
+struct capturing_function_pointer
 {
   using function_type         = std::function<return_type(argument_types...)>;
   using function_pointer_type = return_type (*) (argument_types..., void*);

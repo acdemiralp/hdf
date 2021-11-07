@@ -86,31 +86,31 @@ Header-only C++20 wrapper for HDF5.
     - [ ] H5S_GET_SELECT_TYPE  
     - [ ] H5S_GET_SIMPLE_EXTENT_DIMS 
   - [ ] Data Types
-    - [ ] H5T_CLOSE
+    - [x] H5T_CLOSE
     - [ ] H5T_COMMIT2
     - [ ] H5T_COMMIT_ANON
-    - [ ] H5T_COMMITTED
-    - [ ] H5T_COPY
+    - [x] H5T_COMMITTED
+    - [x] H5T_COPY
     - [ ] H5T_CREATE
     - [ ] H5T_DETECT_CLASS
-    - [ ] H5T_EQUAL
-    - [ ] H5T_FLUSH
+    - [x] H5T_EQUAL
+    - [x] H5T_FLUSH
     - [ ] H5T_GET_CLASS
     - [ ] H5T_GET_CREATE_PLIST
     - [ ] H5T_GET_NATIVE_TYPE
     - [ ] H5T_GET_SIZE
     - [ ] H5T_GET_SUPER
-    - [ ] H5T_LOCK
+    - [x] H5T_LOCK
     - [ ] H5T_OPEN2
-    - [ ] H5T_REFRESH
+    - [x] H5T_REFRESH
     - [ ] H5T_SET_SIZE
     - [ ] H5T_COMPILER_CONV
     - [ ] H5T_CONVERT
     - [ ] H5T_DECODE
     - [ ] H5T_ENCODE
     - [ ] H5T_FIND
-    - [ ] H5T_REGISTER
-    - [ ] H5T_UNREGISTER
+    - [x] H5T_REGISTER
+    - [x] H5T_UNREGISTER
     - [ ] H5T_GET_CSET
     - [ ] H5T_GET_EBIAS
     - [ ] H5T_GET_FIELDS
