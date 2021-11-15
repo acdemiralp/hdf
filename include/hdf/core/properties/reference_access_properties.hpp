@@ -1,5 +1,6 @@
 #pragma once
 
+#include <hdf/core/hdf.hpp>
 #include <hdf/core/properties.hpp>
 
 namespace hdf
@@ -8,7 +9,7 @@ class reference_access_properties : public properties
 {
 public:
   reference_access_properties           ()
-  : properties(H5P_REFERENCE_ACCESS)
+  : properties(reference_access_properties_class)
   {
 
   }

@@ -1,5 +1,6 @@
 #pragma once
 
+#include <hdf/core/hdf.hpp>
 #include <hdf/core/properties.hpp>
 
 namespace hdf
@@ -8,7 +9,7 @@ class map_creation_properties : public properties
 {
 public:
   map_creation_properties           ()
-  : properties(H5P_MAP_CREATE)
+  : properties(map_creation_properties_class)
   {
 
   }

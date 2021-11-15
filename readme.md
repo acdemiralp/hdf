@@ -456,31 +456,31 @@ Header-only C++20 wrapper for HDF5.
       - [ ] H5P_SET_SIEVE_BUF_SIZE
       - [ ] H5P_SET_SMALL_DATA_BLOCK_SIZE
       - [ ] H5P_SET_VOL
-    - [ ] Group Creation
-      - [ ] H5P_GET_EST_LINK_INFO
-      - [ ] H5P_GET_LINK_CREATION_ORDER
-      - [ ] H5P_GET_LINK_PHASE_CHANGE
-      - [ ] H5P_GET_LOCAL_HEAP_SIZE_HINT
-      - [ ] H5P_SET_EST_LINK_INFO
-      - [ ] H5P_SET_LINK_CREATION_ORDER
-      - [ ] H5P_SET_LINK_PHASE_CHANGE
-      - [ ] H5P_SET_LOCAL_HEAP_SIZE_HINT
-    - [ ] Attribute and Link Creation
-      - [ ] H5P_GET_CHAR_ENCODING
-      - [ ] H5P_GET_CREATE_INTERMEDIATE_GROUP
-      - [ ] H5P_SET_CHAR_ENCODING
-      - [ ] H5P_SET_CREATE_INTERMEDIATE_GROUP
-    - [ ] Link Access
-      - [ ] H5P_GET_ELINK_ACC_FLAGS
-      - [ ] H5P_GET_ELINK_CB
-      - [ ] H5P_GET_ELINK_FAPL
-      - [ ] H5P_GET_ELINK_PREFIX
-      - [ ] H5P_GET_NLINKS
-      - [ ] H5P_SET_ELINK_ACC_FLAGS
-      - [ ] H5P_SET_ELINK_CB
-      - [ ] H5P_SET_ELINK_FAPL
-      - [ ] H5P_SET_ELINK_PREFIX
-      - [ ] H5P_SET_NLINKS
+    - [x] Group Creation
+      - [x] H5P_GET_EST_LINK_INFO
+      - [x] H5P_GET_LINK_CREATION_ORDER
+      - [x] H5P_GET_LINK_PHASE_CHANGE
+      - [x] H5P_GET_LOCAL_HEAP_SIZE_HINT
+      - [x] H5P_SET_EST_LINK_INFO
+      - [x] H5P_SET_LINK_CREATION_ORDER
+      - [x] H5P_SET_LINK_PHASE_CHANGE
+      - [x] H5P_SET_LOCAL_HEAP_SIZE_HINT
+    - [x] Attribute and Link Creation
+      - [x] H5P_GET_CHAR_ENCODING
+      - [x] H5P_GET_CREATE_INTERMEDIATE_GROUP
+      - [x] H5P_SET_CHAR_ENCODING
+      - [x] H5P_SET_CREATE_INTERMEDIATE_GROUP
+    - [x] Link Access
+      - [x] H5P_GET_ELINK_ACC_FLAGS
+      - [x] H5P_GET_ELINK_CB
+      - [x] H5P_GET_ELINK_FAPL
+      - [x] H5P_GET_ELINK_PREFIX
+      - [x] H5P_GET_NLINKS
+      - [x] H5P_SET_ELINK_ACC_FLAGS
+      - [x] H5P_SET_ELINK_CB
+      - [x] H5P_SET_ELINK_FAPL
+      - [x] H5P_SET_ELINK_PREFIX
+      - [x] H5P_SET_NLINKS
     - [ ] Dataset Creation
       - [ ] H5P_ALL_FILTERS_AVAIL
       - [ ] H5P_FILL_VALUE_DEFINED
@@ -557,41 +557,41 @@ Header-only C++20 wrapper for HDF5.
       - [ ] H5P_SET_HYPER_VECTOR_SIZE
       - [ ] H5P_SET_TYPE_CONV_CB
       - [ ] H5P_SET_VLEN_MEM_MANAGER
-    - [ ] Object Creation
-      - [ ] H5P_GET_ATTR_CREATION_ORDER
-      - [ ] H5P_GET_ATTR_PHASE_CHANGE
-      - [ ] H5P_GET_OBJ_TRACK_TIMES
-      - [ ] H5P_SET_ATTR_CREATION_ORDER
-      - [ ] H5P_SET_ATTR_PHASE_CHANGE
-      - [ ] H5P_SET_OBJ_TRACK_TIMES
-    - [ ] Object Copy
-      - [ ] H5P_ADD_MERGE_COMMITTED_DTYPE_PATH
-      - [ ] H5P_FREE_MERGE_COMMITTED_DTYPE_PATHS
-      - [ ] H5P_GET_COPY_OBJECT
-      - [ ] H5P_GET_MCDT_SEARCH_CB
-      - [ ] H5P_SET_COPY_OBJECT
-      - [ ] H5P_SET_MCDT_SEARCH_CB
-    - [ ] General Access Properties
-      - [ ] H5P_GET_ALL_COLL_METADATA_OPS
-      - [ ] H5P_SET_ALL_COLL_METADATA_OPS
+    - [x] Object Creation
+      - [x] H5P_GET_ATTR_CREATION_ORDER
+      - [x] H5P_GET_ATTR_PHASE_CHANGE
+      - [x] H5P_GET_OBJ_TRACK_TIMES
+      - [x] H5P_SET_ATTR_CREATION_ORDER
+      - [x] H5P_SET_ATTR_PHASE_CHANGE
+      - [x] H5P_SET_OBJ_TRACK_TIMES
+    - [x] Object Copy
+      - [x] H5P_ADD_MERGE_COMMITTED_DTYPE_PATH
+      - [x] H5P_FREE_MERGE_COMMITTED_DTYPE_PATHS
+      - [x] H5P_GET_COPY_OBJECT
+      - [x] H5P_GET_MCDT_SEARCH_CB
+      - [x] H5P_SET_COPY_OBJECT
+      - [x] H5P_SET_MCDT_SEARCH_CB
+    - [x] General Access Properties
+      - [x] H5P_GET_ALL_COLL_METADATA_OPS
+      - [x] H5P_SET_ALL_COLL_METADATA_OPS
     - [ ] General Property List Operations
-      - [ ] H5P_CLOSE_CLASS
-      - [ ] H5P_COPY_PROP
-      - [ ] H5P_CREATE_CLASS
-      - [ ] H5P_EQUAL
-      - [ ] H5P_EXIST
-      - [ ] H5P_GET
-      - [ ] H5P_GET_CLASS_NAME
-      - [ ] H5P_GET_CLASS_PARENT
-      - [ ] H5P_GET_NPROPS
-      - [ ] H5P_GET_SIZE
-      - [ ] H5P_INSERT
-      - [ ] H5P_ISA_CLASS
-      - [ ] H5P_ITERATE
-      - [ ] H5P_REGISTER
-      - [ ] H5P_REMOVE
-      - [ ] H5P_SET
-      - [ ] H5P_UNREGISTER
+      - [x] H5P_CLOSE_CLASS
+      - [x] H5P_COPY_PROP
+      - [x] H5P_CREATE_CLASS
+      - [x] H5P_EQUAL
+      - [x] H5P_EXIST
+      - [x] H5P_GET
+      - [x] H5P_GET_CLASS_NAME 
+      - [x] H5P_GET_CLASS_PARENT 
+      - [x] H5P_GET_NPROPS
+      - [x] H5P_GET_SIZE
+      - [ ] H5P_INSERT *
+      - [x] H5P_ISA_CLASS
+      - [x] H5P_ITERATE
+      - [ ] H5P_REGISTER *
+      - [x] H5P_REMOVE
+      - [x] H5P_SET
+      - [x] H5P_UNREGISTER
   - [ ] References
     - [ ] H5R_COPY    
     - [ ] H5R_CREATE    

@@ -1,5 +1,6 @@
 #pragma once
 
+#include <hdf/core/hdf.hpp>
 #include <hdf/core/properties.hpp>
 
 namespace hdf
@@ -8,7 +9,7 @@ class attribute_access_properties : public properties
 {
 public:
   attribute_access_properties           ()
-  : properties(H5P_ATTRIBUTE_ACCESS)
+  : properties(attribute_access_property_class)
   {
 
   }

@@ -1,5 +1,6 @@
 #pragma once
 
+#include <hdf/core/hdf.hpp>
 #include <hdf/core/properties.hpp>
 
 namespace hdf
@@ -8,7 +9,7 @@ class data_type_creation_properties : public properties
 {
 public:
   data_type_creation_properties           ()
-  : properties(H5P_DATATYPE_CREATE)
+  : properties(data_type_creation_properties_class)
   {
 
   }

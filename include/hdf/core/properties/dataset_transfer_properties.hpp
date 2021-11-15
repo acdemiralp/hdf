@@ -1,5 +1,6 @@
 #pragma once
 
+#include <hdf/core/hdf.hpp>
 #include <hdf/core/properties.hpp>
 
 namespace hdf
@@ -8,7 +9,7 @@ class dataset_transfer_properties : public properties
 {
 public:
   dataset_transfer_properties           ()
-  : properties(H5P_DATASET_XFER)
+  : properties(dataset_transfer_properties_class)
   {
 
   }

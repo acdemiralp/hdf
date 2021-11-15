@@ -1,5 +1,6 @@
 #pragma once
 
+#include <hdf/core/hdf.hpp>
 #include <hdf/core/properties.hpp>
 
 namespace hdf
@@ -8,7 +9,7 @@ class file_mount_properties : public properties
 {
 public:
   file_mount_properties           ()
-  : properties(H5P_FILE_MOUNT)
+  : properties(file_mount_properties_class)
   {
 
   }

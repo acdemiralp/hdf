@@ -1,5 +1,6 @@
 #pragma once
 
+#include <hdf/core/hdf.hpp>
 #include <hdf/core/properties.hpp>
 
 namespace hdf
@@ -8,7 +9,7 @@ class vol_initialization_properties : public properties
 {
 public:
   vol_initialization_properties           ()
-  : properties(H5P_VOL_INITIALIZE)
+  : properties(vol_initialization_properties_class)
   {
 
   }

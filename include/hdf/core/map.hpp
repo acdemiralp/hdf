@@ -21,11 +21,11 @@ public:
     const map_creation_properties&  map_creation_props  = map_creation_properties(), 
     const map_access_properties&    map_access_props    = map_access_properties  ())
   : managed_(true), native_(H5Mcreate_anon(
-      location                         , 
-      key_type                .native(), 
-      value_type              .native(), 
-      map_creation_props      .native(),
-      map_access_props        .native()))
+      location                    , 
+      key_type           .native(), 
+      value_type         .native(), 
+      map_creation_props .native(),
+      map_access_props   .native()))
   {
     
   }
@@ -38,13 +38,13 @@ public:
     const map_creation_properties&  map_creation_props  = map_creation_properties (), 
     const map_access_properties&    map_access_props    = map_access_properties   ())
   : managed_(true), native_(H5Mcreate(
-      location                         , 
-      name                    .c_str (), 
-      key_type                .native(), 
-      value_type              .native(), 
-      link_creation_props     .native(), 
-      map_creation_props      .native(),
-      map_access_props        .native()))
+      location                    , 
+      name               .c_str (), 
+      key_type           .native(), 
+      value_type         .native(), 
+      link_creation_props.native(), 
+      map_creation_props .native(),
+      map_access_props   .native()))
   {
     
   }

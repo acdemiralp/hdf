@@ -1,5 +1,6 @@
 #pragma once
 
+#include <hdf/core/hdf.hpp>
 #include <hdf/core/properties.hpp>
 
 namespace hdf
@@ -8,7 +9,7 @@ class group_access_properties : public properties
 {
 public:
   group_access_properties           ()
-  : properties(H5P_GROUP_ACCESS)
+  : properties(group_access_properties_class)
   {
 
   }

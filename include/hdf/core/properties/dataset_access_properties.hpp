@@ -1,5 +1,6 @@
 #pragma once
 
+#include <hdf/core/hdf.hpp>
 #include <hdf/core/properties.hpp>
 
 namespace hdf
@@ -8,7 +9,7 @@ class dataset_access_properties : public properties
 {
 public:
   dataset_access_properties           ()
-  : properties(H5P_DATASET_ACCESS)
+  : properties(data_type_access_properties_class)
   {
 
   }
